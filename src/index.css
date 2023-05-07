@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #0B0B45;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -67,4 +67,19 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.parentload {    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 8px solid whitesmoke; 
+  border-top: 8px solid #282c34; 
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
 }
